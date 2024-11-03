@@ -57,7 +57,7 @@
     3. Menu
   --------------------------------------------------------------*/
   function mainMenu() {
-    // $('.st-nav').append('<span class="st-munu-toggle"><span></span></span>');
+    $('.st-nav').append('<span class="st-munu-toggle"><span></span></span>');
     $('.menu-item-has-children').append('<span class="st-munu-dropdown-toggle"></span>');
     $('.st-munu-toggle').on('click', function () {
       $(this).toggleClass("st-toggle-active").siblings('.st-nav-list').slideToggle();;
